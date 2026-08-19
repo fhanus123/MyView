@@ -26,16 +26,6 @@ Catatan penting: saya masih dalam proses belajar.Beberapa bagian kode mungkin be
 - **Frontend:** HTML, JavaScript (vanilla), Tailwind CSS v4
 - **Autentikasi:** express-session, bcrypt
 
-🗂️ Struktur Project
-
-├── config/          # koneksi & skema database
-├── controllers/      # logika bisnis tiap fitur
-├── models/           # query ke database
-├── routes/            # daftar endpoint API
-├── middleware/        # proteksi route (login/admin check)
-├── public/            # frontend (HTML, CSS, JS)
-└── server.js           # entry point aplikasi
-
 Project ini disusun dengan pola **MVC (Model-View-Controller)** — pola dasar yang saya pelajari untuk memisahkan tanggung jawab tiap bagian kode, supaya lebih mudah dipahami dan dikembangkan.
 
 🚀 Cara Menjalankan

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang = 'id'>
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-gray-100 min-h-screen flex items-center justify-center">
+    <div class="bg-white rounded-lg shadow p-8 w-full max-w-sm">
+        <h1 id="formTitle" class="text-2xl font-bold text-blue-600 mb-6 text-center">Login</h1>
+    
+        <div id="errorMessage" class="hidden"></div>
+    
+        <form id="authForm" class="flex flex-col gap-4">
+            <input 
+            type="text" 
+            id="username" 
+            placeholder="username" 
+            required
+            minlength="3"
+            class="border border-gray-300 rounded px-3 py-2 focus:out-line-none focus:ring-2 focus:ring-blue-500"
+            >
+    
+            <input 
+            type="password"
+            id="password"
+            placeholder="password"
+            required
+            minlength="6"
+            class="border border-gray-300 rounded px-3 py-2 focus:out-line-none focus:ring-2 focus:ring-blue-500"
+            >
+    
+            <button
+            type="submit"
+            id="submitBtn"
+            class="bg-blue-600 hover:bg-blue-700 text-white font-medium px-4 py-2 rounded transition-colors"
+            >Masuk</button>
+        </form>
+
+        <p class="text-center text-sm text-gray-500 mt-4">
+            <span id="toggleText">Belum punya Akun?</span>
+            <button id="toggleModeBtn" class="text-blue-600 hover:underline font-medium cursor-pointer">Daftar</button>
+        </p>
+    </div>
+
+    <script src="./js/login.js"></script>
+</body>
+</html>

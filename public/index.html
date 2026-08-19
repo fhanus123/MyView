@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <title>Dashboard User</title>
+        <link rel='stylesheet' href="css/style.css">
+        <script src="./js/authCheck.js"></script>
+        <script>checkAuth('admin')</script>
+    </head>
+    <body class="bg-gray-100 min-h-screen p-6">
+        <div class="container max-w-3xl mx-auto bg-white rounded-lg shadow p-6">
+            <div class="justify-between flex items-center mb-6">
+                <h1 class="text-3xl font-bold text-blue-600">Daftar akun Terdaftar</h1>
+                <button id="logoutBtn" class="bg-red-500 hover:bg-red-600 text-white font-medium px-4 py-2 rounded transition-colors cursor-pointer">Logout</button>
+            </div>
+
+    
+            <!--Show Error Message-->
+            <div id="errorMessage" class="hidden"></div>
+            
+            <table class="w-full text-left">
+                <thead>
+                    <tr class="border-b border-gray-200 text-gray-600 text-sm">
+                        <th class="py-2">ID</th>
+                        <th class="py-2">Username</th>
+                        <th class="py-2">Role</th>
+                        <th class="py-2">Waktu Terdaftar</th>
+                        <th class="py-2">Aksi</th>
+                    </tr>
+                </thead>
+                <tbody id="accountTableBody"></tbody>
+            </table>
+        </div>
+
+        <script src="js/dashboard.js"></script>
+    </body>
+</html>

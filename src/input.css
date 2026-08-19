@@ -1,0 +1,39 @@
+@import "tailwindcss";
+/* catatan : @apply itu tidak erro dan emang harus agar file css ini bisa mpenerapkan class dari tailwind makanya kita melakukan import disini*/
+
+@keyframes slideIn {
+  from{
+    transform : translateX(100%);
+    opacity: 0;
+  } to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideOut {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  } to {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+#errorMessage {
+  @apply fixed top-6 right-6 bg-red-100 text-red-700 px-4 py-3 rounded border border-red-300 shadow-lg z-50 ;
+}
+
+#errorMessage.hidden {
+  display: none;
+}
+
+#errorMessage.show{
+  animation: sideIn 0.3s ease-out forwards;
+}
+
+#errorMessage.hide {
+  animation: slideOut 0.3s ease-in forwards;
+}
+

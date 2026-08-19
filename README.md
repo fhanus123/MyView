@@ -6,9 +6,9 @@ Aplikasi web sederhana untuk mencatat kegiatan harian dan memantau kebiasaan (ha
 
 Saya membuat project ini sebagai media belajar membangun aplikasi web dari nol — mulai dari nol pengalaman membangun aplikasi penuh, hanya bermodal pengetahuan dasar JavaScript dan Java.
 
-Awalnya project ini cuma latihan CRUD sederhana. Tapi seiring belajar, saya mulai menambahkan fitur nyata yang bisa dipakai sehari-hari: adik saya suka gym dan ingin mencatat kegiatan latihannya setiap hari sekaligus memantau progressnya. Jadi project belajar ini pun berkembang jadi aplikasi yang benar-benar dipakai di rumah, terhubung lewat jaringan WiFi lokal.
+Awalnya project ini cuma latihan CRUD sederhana. Tapi seiring belajar, saya mulai menambahkan fitur nyata yang bisa dipakai sehari-hari: adik saya suka gym dan ingin mencatat kegiatan latihannya setiap hari sekaligus memantau progressnya. Jadi project belajar ini pun berkembang jadi aplikasi yang benar-benar dipakai di rumah, yang dimana saya membuat webnya bisa diakses di jaringan WiFi lokal.
 
-Catatan penting: saya masih dalam proses belajar.** Beberapa bagian kode mungkin belum mengikuti best practice sepenuhnya, dan saya masih terus memperbaiki serta menambah fitur seiring pemahaman saya bertambah. Kalau ada saran atau masukan, saya sangat terbuka untuk belajar lebih banyak lagi.
+Catatan penting: saya masih dalam proses belajar.Beberapa bagian kode mungkin belum mengikuti best practice sepenuhnya, dan saya masih terus memperbaiki serta menambah fitur seiring pemahaman saya bertambah. Kalau ada saran atau masukan, saya sangat terbuka untuk belajar lebih banyak lagi.
 
 ✨ Fitur
 
@@ -35,7 +35,6 @@ Catatan penting: saya masih dalam proses belajar.** Beberapa bagian kode mungkin
 ├── middleware/        # proteksi route (login/admin check)
 ├── public/            # frontend (HTML, CSS, JS)
 └── server.js           # entry point aplikasi
-```
 
 Project ini disusun dengan pola **MVC (Model-View-Controller)** — pola dasar yang saya pelajari untuk memisahkan tanggung jawab tiap bagian kode, supaya lebih mudah dipahami dan dikembangkan.
 
